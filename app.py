@@ -12,7 +12,6 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from mplfinance.original_flavor import candlestick_ohlc
 import random
-import matplotlib.dates as mdates
 from pytz import timezone
 from datetime import timedelta
 
