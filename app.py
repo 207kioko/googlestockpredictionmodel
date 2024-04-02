@@ -2,9 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from datetime import datetime
-from sklearn.model_selection import train_test_split
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense
 from mplfinance.original_flavor import candlestick_ohlc
 import random
 from pytz import timezone
