@@ -18,8 +18,6 @@ start = datetime(2022, 1, 1)
 end = datetime.now()
 stock_symbol = 'GOOG'
 st.subheader('Data from 2022')
-st.write(df.describe())
-
 # Visualization
 st.subheader('Closing Price vs Time chart')
 fig = plt.figure(figsize=(12, 6))
