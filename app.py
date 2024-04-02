@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from datetime import datetime
-from mplfinance.original_flavor import candlestick_ohlc
 import random
 from pytz import timezone
 from datetime import timedelta
