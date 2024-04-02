@@ -17,7 +17,6 @@ api_token = 'sk_a523cbccbdcf4a8287aa2197c860c131'
 start = datetime(2022, 1, 1)
 end = datetime.now()
 stock_symbol = 'GOOG'
-df = data.DataReader(stock_symbol, 'iex', start, end, api_key=api_token)
 st.subheader('Data from 2022')
 st.write(df.describe())
 
