@@ -1,8 +1,18 @@
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import streamlit as st
+import pandas_datareader as data
 from datetime import datetime
+from keras.models import load_model
+import yfinance as yf
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+from mplfinance.original_flavor import candlestick_ohlc
 import random
+import matplotlib.dates as mdates
 from pytz import timezone
 from datetime import timedelta
 
