@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import pandas_datareader as data
 from datetime import datetime
 from keras.models import load_model
 import yfinance as yf
