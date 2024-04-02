@@ -20,7 +20,6 @@ stock_symbol = 'GOOG'
 st.subheader('Data from 2022')
 # Visualization
 st.subheader('Closing Price vs Time chart')
-fig = plt.figure(figsize=(12, 6))
 plt.plot(df.close)
 st.pyplot(fig)
 
